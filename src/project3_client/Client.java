@@ -32,8 +32,8 @@ public class Client {
     /**
      * Executes the Client object.  Creates client threads specified from command line
      * arguments and prints output to console and filewriter.
-     * @param host
-     * @param port
+     * @param host hostname from args
+     * @param port port from args
      */
     @SuppressWarnings("empty-statement")
     private void execute(String host, int port) {
@@ -47,7 +47,7 @@ public class Client {
             // Iteratively opens sockets on the threaded clients
             for (int x = 0; x < NUM_CLIENTS; x++) {
                 (clients[x] = new Threaded_Client(host, port, x)).start();
-                Thread.sleep(10);
+                Thread.sleep(25);
             }
             // While number of clients finished < total client count
             while (clients[0].getNumFinished() < NUM_CLIENTS);

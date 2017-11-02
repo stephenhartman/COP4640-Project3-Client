@@ -1,18 +1,66 @@
-Number of Clients,Total turn-around time,Average turn-around time
+Number of Clients,Total turn-around time,Average turn-around time,Single-Threaded Server,Client sleep = 10ms,Server sleep = 250ms
 1,257.0,257.0
-Number of Clients,Total turn-around time,Average turn-around time
 2,747.0,373.5
-Number of Clients,Total turn-around time,Average turn-around time
 3,1492.0,497.3333333333333
-Number of Clients,Total turn-around time,Average turn-around time
 4,2461.0,615.25
-Number of Clients,Total turn-around time,Average turn-around time
 5,3710.0,742.0
-Number of Clients,Total turn-around time,Average turn-around time
 10,13417.0,1341.7
-Number of Clients,Total turn-around time,Average turn-around time
 25,78912.0,3156.48
-Number of Clients,Total turn-around time,Average turn-around time
 50,309257.0,6185.14
-Number of Clients,Total turn-around time,Average turn-around time
 100,861735.0,8617.35
+500,N/A,N/A
+Number of Clients,Total turn-around time,Average turn-around time,Multi-Threaded Server,Client sleep = 10ms,Server sleep = 250ms
+1,258.0,258.0
+2,506.0,253.0
+3,761.0,253.66666666666666
+4,1009.0,252.25
+5,1263.0,252.6
+10,2527.0,252.7
+25,6320.0,252.8
+50,12663.0,253.26
+100,25319.0,253.19
+500,126684.0,253.368
+Number of Clients,Total turn-around time,Average turn-around time,Single-Threaded Server,Client sleep = 25ms,Server sleep = 250ms
+1,255.0,255.0
+2,737.0,368.5
+3,1411.0,470.3333333333333
+4,2371.0,592.75
+5,3561.0,712.2
+10,12743.0,1274.3
+25,73241.0,2929.64
+50,288264.0,5765.28
+100,863807.0,8638.07
+500,N/A,N/A
+Number of Clients,Total turn-around time,Average turn-around time, Multi-Threaded Server,Client sleep = 25ms,Server sleep = 250ms
+1,257.0,257.0
+2,504.0,252.0
+3,759.0,253.0
+4,1012.0,253.0
+5,1264.0,252.8
+10,2538.0,253.8
+25,6343.0,253.72
+50,12674.0,253.48
+100,25334.0,253.34
+500,126728.0,253.456
+Number of Clients,Total turn-around time,Average turn-around time,Single-threaded Server,Client sleep = 25ms,Server sleep = 500ms
+1,505.0,505.0
+2,1485.0,742.5
+3,2934.0,978.0
+4,4887.0,1221.75
+5,7302.0,1460.4
+10,26455.0,2645.5
+25,155247.0,6209.88
+50,607166.0,12143.32
+Number of Clients,Total turn-around time,Average turn-around time,Multi-threaded Server,Client sleep = 25ms, Server sleep = 500ms
+1,507.0,507.0
+2,1002.0,501.0
+3,1513.0,504.3333333333333
+4,2012.0,503.0
+5,2513.0,502.6
+10,5034.0,503.4
+25,12590.0,503.6
+50,25225.0,504.5
+Number of Clients,Total turn-around time,Average turn-around time,Single-threaded Server,Client sleep = 1ms, Server sleep = 250ms
+20,53067.0,2653.35
+Number of Clients,Total turn-around time,Average turn-around time,Multi-threaded Server,Client sleep = 1ms, Server sleep = 250ms
+20,5074.0,253.7
