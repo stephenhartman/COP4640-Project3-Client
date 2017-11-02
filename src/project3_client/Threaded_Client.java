@@ -37,7 +37,7 @@ public class Threaded_Client extends Thread {
             out.println(clientNumber);                          // Output client number to Server
             outputFromServer = in.readLine();                   // Input String from Server
             totalTime = System.currentTimeMillis() - startTime; // Record total time
-            numFinished.incrementAndGet();                      // Increment the Atomic Integer
+            numFinished.incrementAndGet();                      // Increment the clients processed integer
         }
         catch (IOException ioe) {
             ioe.printStackTrace();
