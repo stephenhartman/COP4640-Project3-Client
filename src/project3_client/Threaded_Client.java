@@ -48,10 +48,10 @@ public class Threaded_Client extends Thread {
             PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
             BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
         ) {
-            long startTime = System.currentTimeMillis();        // Record start time
+            long startTime = System.nanoTime();                 // Record start time
             out.println(clientNumber);                          // Output client number to Server
             outputFromServer = in.readLine();                   // Input String from Server
-            totalTime = System.currentTimeMillis() - startTime; // Record total time
+            totalTime = (System.nanoTime() - startTime) / 1000000; // Record total time
             numFinished.incrementAndGet();                      // Increment the clients processed integer
         }
         catch (IOException ioe) {
